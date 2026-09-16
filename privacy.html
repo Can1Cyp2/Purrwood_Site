@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Purrwood privacy policy</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="mark" aria-hidden="true">🐈</div>
+  <a class="home" href="./">Purrwood</a>
+  <nav><a href="help.html">Help</a><a href="privacy.html">Privacy</a></nav>
+</header>
+<main>
+  <section class="card">
+    <p class="eyebrow">Privacy policy</p>
+    <h1>What Purrwood keeps, and why</h1>
+    <p class="muted">Last updated 16 September 2026.</p>
+    <p>Purrwood is a game. It keeps the least it can to let you play and to bring your cats back on another phone. It shows no advertising, uses no analytics or tracking, and never sells or shares your information.</p>
+  </section>
+
+  <section class="card">
+    <h2>What is stored</h2>
+    <div class="table-wrap">
+    <table>
+      <tr><th>Data</th><th>When</th><th>Why</th></tr>
+      <tr><td><strong>Your game save</strong>: cats, rooms, items, progress, in-game currency</td><td>Always, on your phone; in your account when you have a connection</td><td>To play, and to restore your garden on another phone</td></tr>
+      <tr><td><strong>A random account identifier</strong></td><td>When you continue as a guest or create an account</td><td>To tell your save from everyone else's</td></tr>
+      <tr><td><strong>Email address</strong></td><td>Only if you create an email account</td><td>To sign you in and to send sign-in and password codes</td></tr>
+      <tr><td><strong>Password</strong>, stored as a one-way hash that cannot be read back</td><td>Only if you create an email account</td><td>To sign you in</td></tr>
+      <tr><td><strong>Apple account identifier</strong></td><td>Only if you sign in with Apple</td><td>To sign you in. We receive Apple's identifier and, if you allow it, your email, which may be Apple's private relay address</td></tr>
+      <tr><td><strong>Purchase receipts</strong></td><td>Only if you buy something in the shop</td><td>To deliver what you bought and to handle refunds. Payment details stay with Apple or Google and never reach us</td></tr>
+      <tr><td><strong>Sound and preference settings</strong></td><td>Always</td><td>Kept on your phone only</td></tr>
+    </table>
+    </div>
+    <p>Purrwood does not use your location, contacts, camera, microphone, photos or advertising identifiers.</p>
+  </section>
+
+  <section class="card">
+    <h2>Where it is stored</h2>
+    <p>Your save is kept on your phone in the app's private storage. Sign-in tokens are kept in the phone's secure keychain. When you have a connection, the save and account are stored with <strong>Supabase</strong>, the hosting service Purrwood's account system runs on, in a database only the game's own server code can write to. Supabase is a processor acting on Purrwood's instructions; see <a href="https://supabase.com/privacy">Supabase's privacy policy</a>.</p>
+    <p>Sign-in and password emails are sent by that account system to the address you gave. Nothing else is emailed.</p>
+  </section>
+
+  <section class="card">
+    <h2>What Purrwood does not do</h2>
+    <ul>
+      <li>No advertising, no ad networks, no advertising identifiers.</li>
+      <li>No analytics, tracking or profiling, in the app or on this website.</li>
+      <li>No selling, renting or sharing of your data with anyone.</li>
+      <li>No reading of your password: it is hashed before it is stored, and the app never keeps it.</li>
+      <li>No cookies on this website. These pages are plain files.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Your choices</h2>
+    <ul>
+      <li><strong>Play without an account.</strong> As a guest, nothing about you is stored beyond a random identifier and your save.</li>
+      <li><strong>Delete everything.</strong> Settings → <em>Delete account and save</em> removes your account, your save and your sign-in details from our systems at once. Uninstalling the app removes the copy on your phone.</li>
+      <li><strong>Take your save with you.</strong> Settings can export an encrypted backup file that only your passphrase opens.</li>
+      <li><strong>Change or remove your email.</strong> Contact us using the details below, or delete the account and start again.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Children</h2>
+    <p>Purrwood is suitable for all ages and asks for nothing about a player's age, name or identity. An email address is needed only for the optional account, and a parent or guardian may use their own. If you believe a child has created an account you did not agree to, contact us and it will be removed.</p>
+  </section>
+
+  <section class="card">
+    <h2>Retention</h2>
+    <p>Your account and save are kept until you delete them. Accounts that were never used again are not mined or sold; they simply sit until deleted. Purchase receipts are kept as long as the stores require for refunds.</p>
+  </section>
+
+  <section class="card">
+    <h2>Changes and contact</h2>
+    <p>If this policy changes, the date at the top changes with it and the app links here, so the current version is always this page.</p>
+    <p>Questions or requests: open an issue on <a href="https://github.com/Can1Cyp2/Purrwood/issues">the Purrwood project page</a>. Do not include passwords, codes or backup passphrases.</p>
+  </section>
+</main>
+<footer>Purrwood is an independent game. The app is the only place your account is used.</footer>
+</body>
+</html>

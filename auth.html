@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'; connect-src 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex">
+<title>Purrwood account</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="mark" aria-hidden="true">🐈</div>
+  <a class="home" href="./">Purrwood</a>
+  <nav><a href="help.html">Help</a><a href="privacy.html">Privacy</a></nav>
+</header>
+<main>
+  <section class="card">
+    <p class="eyebrow">Account email</p>
+    <h1>Enter the code in the app</h1>
+    <p>Purrwood confirms sign-ups and password resets with a <strong>six-digit code</strong> typed into the app, not with a link. This page exists only so that an account email always has somewhere safe to point.</p>
+    <p class="notice" id="status">Open Purrwood on your phone and enter the code from the email on the <strong>Enter your code</strong> screen.</p>
+    <p id="expired" class="warning" hidden>That link has expired or was already used. Open the app and ask for a new code.</p>
+    <p class="muted">Nothing is stored or sent by this page. If your browser shows anything after a <code>#</code> in the address, it has been discarded.</p>
+  </section>
+  <section class="card">
+    <h2>Did not ask for this?</h2>
+    <p>Someone may have typed your address by mistake. Without the code, nothing can happen to your address or to any account, and you can ignore the email.</p>
+    <p>More in <a href="help.html">help</a>.</p>
+  </section>
+</main>
+<footer>Purrwood is an independent game. The app is the only place your account is used.</footer>
+<script src="auth.js"></script>
+</body>
+</html>
