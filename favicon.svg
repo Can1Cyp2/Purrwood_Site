@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Purrwood paw and question-mark icon</title>
+  <desc id="desc">A full cream and ginger cat paw reaches diagonally from the right side toward the center. Its pink-orange toe beans face upward, with a dark purple question mark above it on a soft lavender background.</desc>
+  <defs>
+    <linearGradient id="background" x1="110" y1="72" x2="928" y2="970" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E9E0FF"/>
+      <stop offset=".52" stop-color="#CBB8EE"/>
+      <stop offset="1" stop-color="#A988D0"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="512" y1="304" x2="975" y2="786" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFDF8"/>
+      <stop offset=".7" stop-color="#FFF5E8"/>
+      <stop offset="1" stop-color="#F7DEBF"/>
+    </linearGradient>
+    <linearGradient id="ginger" x1="620" y1="430" x2="993" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6C184"/>
+      <stop offset="1" stop-color="#E99B62"/>
+    </linearGradient>
+    <linearGradient id="bean" x1="490" y1="370" x2="693" y2="667" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5AA94"/>
+      <stop offset="1" stop-color="#DC765F"/>
+    </linearGradient>
+    <filter id="pawShadow" x="-25%" y="-25%" width="160%" height="160%">
+      <feDropShadow dx="-16" dy="28" stdDeviation="23" flood-color="#57377B" flood-opacity=".28"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" rx="224" fill="url(#background)"/>
+  <circle cx="169" cy="178" r="95" fill="#FFF9FE" fill-opacity=".24"/>
+  <circle cx="885" cy="874" r="154" fill="#7C5AB4" fill-opacity=".13"/>
+  <path d="M0 833C205 756 327 842 442 1024H0Z" fill="#F6EFFF" fill-opacity=".2"/>
+
+  <g transform="rotate(-18 686 602)" filter="url(#pawShadow)">
+    <path d="M748 600C832 581 927 601 1061 659L1065 940C921 918 821 876 757 808C705 752 695 650 748 600Z" fill="url(#fur)"/>
+    <path d="M856 607C927 618 993 647 1061 677L1064 905C991 886 927 858 876 821C846 798 830 757 837 711C843 670 850 637 856 607Z" fill="url(#ginger)"/>
+    <path d="M801 670C856 666 904 684 943 716" fill="none" stroke="#E99860" stroke-linecap="round" stroke-width="23" opacity=".66"/>
+    <path d="M793 738C841 739 886 760 922 792" fill="none" stroke="#E99860" stroke-linecap="round" stroke-width="23" opacity=".66"/>
+
+    <ellipse cx="480" cy="355" rx="82" ry="113" fill="url(#fur)"/>
+    <ellipse cx="622" cy="317" rx="84" ry="116" fill="url(#fur)"/>
+    <ellipse cx="760" cy="371" rx="82" ry="113" fill="url(#fur)"/>
+    <ellipse cx="830" cy="508" rx="78" ry="107" fill="url(#fur)"/>
+    <path d="M429 502C485 432 629 419 758 479C870 531 906 650 846 748C789 843 610 856 471 778C357 714 348 602 429 502Z" fill="url(#fur)"/>
+
+    <path d="M680 442C758 461 817 501 849 554C872 592 870 633 853 670C837 609 787 559 712 530C674 515 638 496 614 467C638 456 659 452 680 442Z" fill="url(#ginger)"/>
+    <path d="M766 706C797 695 827 678 849 653C838 710 798 757 742 786C707 804 668 818 628 822C684 790 733 752 766 706Z" fill="#F0AD70" opacity=".92"/>
+    <path d="M522 723C572 757 641 772 711 756" fill="none" stroke="#F1C78F" stroke-linecap="round" stroke-width="25" opacity=".9"/>
+
+    <ellipse cx="480" cy="363" rx="38" ry="56" fill="url(#bean)"/>
+    <ellipse cx="622" cy="325" rx="39" ry="57" fill="url(#bean)"/>
+    <ellipse cx="759" cy="378" rx="38" ry="55" fill="url(#bean)"/>
+    <ellipse cx="820" cy="510" rx="36" ry="52" fill="url(#bean)"/>
+    <path d="M512 569C554 524 647 526 704 573C761 620 745 709 679 741C617 772 521 736 499 671C487 636 492 595 512 569Z" fill="url(#bean)"/>
+    <path d="M550 606C586 576 652 578 684 612" fill="none" stroke="#FFD5C4" stroke-linecap="round" stroke-width="18" opacity=".72"/>
+  </g>
+
+  <g fill="#543078">
+    <path d="M773 132C680 132 612 189 608 281C607 308 628 329 655 329C681 329 700 311 703 286C708 239 735 210 774 210C818 210 848 237 848 276C848 308 829 331 787 355C731 388 701 423 701 480V505C701 532 723 554 750 554C778 554 799 532 799 505V491C799 468 814 453 832 442C886 410 944 366 944 275C944 190 875 132 773 132Z"/>
+    <circle cx="750" cy="640" r="51"/>
+  </g>
+</svg>
