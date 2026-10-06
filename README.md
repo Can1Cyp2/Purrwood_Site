@@ -7,7 +7,7 @@ GitHub Pages at https://can1cyp2.github.io/Purrwood_Site/.
 |---|---|
 | `index.html` | Front page |
 | `help.html` | Help and support; the support URL for the store listings |
-| `privacy.html` | Privacy policy; linked from Settings, the sign-up screen and the store listings |
+| `privacy.html` | Privacy policy (including the ads, crash reports and the services involved); linked from Settings, the sign-up screen and the store listings. Keep it in step with the app: a new SDK or new data collected must be added here before release |
 | `auth.html` | Where account emails point. Codes are entered in the app; this page only says so, and drops anything after `#` in its address at once |
 
 Plain HTML and CSS with a strict content security policy: no cookies, no analytics, no

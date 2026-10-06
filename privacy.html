@@ -19,9 +19,11 @@
   <section class="card">
     <p class="eyebrow">Privacy policy</p>
     <h1>What Purrwood keeps, and why</h1>
-    <p class="muted">Last updated 16 September 2026.</p>
-    <p>Purrwood is a game. It keeps the least information it can to let you play and to bring your cats back on another phone. 
-      It uses no analytics or tracking, and never sells or shares your information.</p>
+    <p class="muted">Last updated 6 October 2026.</p>
+    <p>Purrwood is a game. It keeps the least information it can to let you play and to bring your cats back on another phone.
+      We run no analytics or tracking of our own, and we never sell your information.</p>
+    <p>Two things in the app involve other companies, and this page covers both in full: the <strong>optional ads</strong> you can choose to watch for rewards (shown by Google AdMob), and <strong>crash reports</strong> that help us fix bugs (collected by Sentry).
+      The game plays fine without ever watching an ad.</p>
   </section>
 
   <section class="card">
@@ -35,22 +37,77 @@
       <tr><td><strong>Password</strong>, stored as a one-way hash that cannot be read back</td><td>Only if you create an email account</td><td>To sign you in</td></tr>
       <tr><td><strong>Apple account identifier</strong></td><td>Only if you sign in with Apple</td><td>To sign you in. We receive Apple's identifier and, if you allow it, your email, which may be Apple's private relay address</td></tr>
       <tr><td><strong>Purchase receipts</strong></td><td>Only if you buy something in the shop</td><td>To deliver what you bought and to handle refunds. Payment details stay with Apple or Google and never reach us</td></tr>
+      <tr><td><strong>Ad records</strong>: your random identifier, which reward the ad was for, the time, and whether the ad was finished</td><td>Only when you choose to watch a rewarded ad</td><td>To give you the reward once, and to stop the same ad being claimed twice</td></tr>
+      <tr><td><strong>Crash and error reports</strong>: what went wrong, your phone model, system version and app version, and your random account identifier</td><td>When the app has an error</td><td>To find and fix bugs. See <a href="#crash-reports">Crash reports</a></td></tr>
     </table>
     </div>
-    <p>Purrwood does not use your location, contacts, camera, microphone, photos or advertising identifiers.</p>
+    <p>Purrwood does not use your location, contacts, camera or photos, and never records audio. Ads are the one place an advertising identifier can be involved, and only as described under <a href="#ads">Ads</a>.</p>
+  </section>
+
+  <section class="card" id="ads">
+    <h2>Ads</h2>
+    <p>Purrwood has <strong>optional rewarded video ads</strong>: you can tap <em>Play ad</em> for a bonus, such as another go at a daily activity or some Tokens. Nothing in the game requires you to watch one, and there are no ads you did not ask for.</p>
+    <p>The ads are provided by <strong>Google AdMob</strong>. When you ask for an ad, Google's advertising software on your phone talks to Google directly. Depending on your choices below, Google may receive and use:</p>
+    <ul>
+      <li>your phone's <strong>advertising identifier</strong> (the IDFA on iPhone, the advertising ID on Android), if you allow it and your phone has one;</li>
+      <li>your <strong>IP address</strong>, from which Google can infer an approximate location;</li>
+      <li>information about your device and app, such as the model, system version, language and screen size, and how the ad performed (whether it loaded, was watched or tapped);</li>
+      <li>diagnostic information, and signals used to prevent fraud and abuse.</li>
+    </ul>
+    <p>Google uses this to choose and show ads (personalised ones only where you allow it), to measure them, and to keep its ad service secure. It acts under its own terms: see <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its services</a> and <a href="https://policies.google.com/privacy">Google's privacy policy</a>. We do not receive the advertising identifier or any profile Google builds.</p>
+
+    <h3>Your choices about ads</h3>
+    <ul>
+      <li><strong>Consent.</strong> Where the law asks for it (the EEA, the UK, Switzerland and some US states), Google's consent tool asks before any ad is requested. You can say yes or no, and you can change your mind at any time in the app: <strong>Settings → Ad privacy choices</strong>. Depending on what you choose, Google may show only non-personalised ads, or no ad is requested at all.</li>
+      <li><strong>iPhone.</strong> You may be asked for Apple's tracking permission. If you tap <em>Ask App Not to Track</em>, Google does not get the advertising identifier. You can change this at any time under iOS Settings → Privacy &amp; Security → Tracking.</li>
+      <li><strong>Android.</strong> You can reset or delete your advertising ID, and turn ad personalisation off, in your phone's Settings (usually Privacy → Ads, but the name varies by phone).</li>
+      <li><strong>Skip ads entirely.</strong> Just never tap <em>Play ad</em>.</li>
+    </ul>
+
+    <h3>What Purrwood itself keeps about an ad</h3>
+    <p>When you watch a rewarded ad, Google tells Purrwood's server that you finished it, using only your random account identifier and a one-time reward code. Purrwood stores a small record of that (see the table above) so the reward is given once. Google's message contains no personal details, and we do not link ads to who you are.</p>
+    <p>We do not sell your information. Under some laws, an ad company receiving data from your phone to show personalised ads can count as "sharing"; the choices above, including <strong>Ad privacy choices</strong>, are how you opt out of that.</p>
+  </section>
+
+  <section class="card" id="crash-reports">
+    <h2>Crash reports</h2>
+    <p>If the app has an error, it sends a report to <strong>Sentry</strong>, a crash-reporting service, so we can fix it. Purrwood's reports go to Sentry's servers in the EU (Germany). A report holds:</p>
+    <ul>
+      <li>what went wrong, and the short trail of what the app was doing just before;</li>
+      <li>your phone model, system version, app version and language;</li>
+      <li>your random account identifier, so we can tell whether one player keeps hitting the same bug. <strong>Never your email address</strong>, and we ask Sentry not to record your IP address.</li>
+    </ul>
+    <p>For about one session in ten, and for any session with an error, Sentry also keeps a <strong>screen recording</strong> to show what the bug looked like. Text and images are hidden (masked) in these recordings. If you send feedback through the app, what you write is sent too.</p>
+    <p>Sentry acts as a processor on our behalf; see <a href="https://sentry.io/privacy/">Sentry's privacy policy</a>. Reports are kept for a limited time (Sentry's default is 90 days) and then removed.</p>
+  </section>
+
+  <section class="card">
+    <h2>Who else handles your information</h2>
+    <div class="table-wrap">
+    <table>
+      <tr><th>Service</th><th>What it does for Purrwood</th><th>What it receives</th></tr>
+      <tr><td><strong>Supabase</strong></td><td>Hosts the account system and your cloud save, and sends sign-in emails</td><td>Your save, random identifier, and email and password hash if you made an account. <a href="https://supabase.com/privacy">Privacy policy</a></td></tr>
+      <tr><td><strong>Google AdMob</strong></td><td>Shows the optional rewarded ads and its consent tool</td><td>Device and ad information, and the advertising identifier if you allow it. See <a href="#ads">Ads</a>. <a href="https://policies.google.com/privacy">Privacy policy</a></td></tr>
+      <tr><td><strong>Sentry</strong></td><td>Collects crash reports</td><td>The reports described under <a href="#crash-reports">Crash reports</a>. <a href="https://sentry.io/privacy/">Privacy policy</a></td></tr>
+      <tr><td><strong>RevenueCat</strong></td><td>Processes shop purchases, with the App Store and Google Play</td><td>Your random identifier and purchase receipts. No payment details. <a href="https://www.revenuecat.com/privacy/">Privacy policy</a></td></tr>
+      <tr><td><strong>Apple</strong> and <strong>Google Play</strong></td><td>Take payment for purchases. Apple also runs Sign in with Apple and Game Center</td><td>What you give them directly. On iPhone, if you connect Game Center, your achievements are sent to Apple under your Apple account</td></tr>
+    </table>
+    </div>
+    <p>These companies receive information to do the job above. Google also uses ad information under its own terms, as described under <a href="#ads">Ads</a>.</p>
   </section>
 
   <section class="card">
     <h2>Where it is stored</h2>
-    <p>Your save is kept on your phone in the app's private storage. Sign-in tokens are kept in the phone's secure keychain. When you have a connection, the save and account are stored with <strong>Supabase</strong>, the hosting service Purrwood's account system runs on, in a database only the game's own server code can write to. Supabase is a processor acting on Purrwood's instructions; see <a href="https://supabase.com/privacy">Supabase's privacy policy</a>.</p>
+    <p>Your save is kept on your phone in the app's private storage. Sign-in tokens are kept in the phone's secure keychain. When you have a connection, the save and account are stored with <strong>Supabase</strong>, the hosting service Purrwood's account system runs on, in a database only the game's own server code can write to. Supabase is a processor acting on Purrwood's instructions.</p>
     <p>Sign-in and password emails are sent by that account system to the address you gave. Nothing else is emailed.</p>
   </section>
 
   <section class="card">
     <h2>What Purrwood does not do</h2>
     <ul>
-      <li>We do not track or profile you (beyond your anonymous account identifier), in the app or on this website.</li>
-      <li>No selling, renting or sharing of your data with anyone.</li>
+      <li>We run no analytics, and do no tracking or profiling of our own (beyond your anonymous account identifier), in the app or on this website. Ads are the exception described above, and only with your say-so.</li>
+      <li>No selling or renting of your data to anyone.</li>
+      <li>No sharing of your data except with the services listed above, to do the jobs described.</li>
       <li>No reading of your password: it is hashed before it is stored, and the app never keeps it.</li>
       <li>No cookies on this website. These pages are plain files.</li>
     </ul>
@@ -60,20 +117,21 @@
     <h2>Your choices</h2>
     <ul>
       <li><strong>Play without an account.</strong> As a guest, nothing about you is stored beyond a random identifier and your save.</li>
-      <li><strong>Delete everything.</strong> Settings → <em>Delete account and save</em> removes your account, your save and your sign-in details from our systems at once. Uninstalling the app removes the copy on your phone.</li>
+      <li><strong>Choose about ads.</strong> Settings → <em>Ad privacy choices</em> changes your consent at any time. See <a href="#ads">Ads</a> for the phone-level controls.</li>
+      <li><strong>Delete everything.</strong> Settings → <em>Delete account and save</em> removes your account, your save, your ad records and your sign-in details from our systems at once. Uninstalling the app removes the copy on your phone.</li>
       <li><strong>Take your save with you.</strong> Settings can export an encrypted backup file that only your passphrase opens.</li>
-      <li><strong>Change or remove your email.</strong> Contact us using the details below, or delete the account and start again.</li>
+      <li><strong>Change or remove your email, or ask about your data.</strong> Contact us using the details below, or delete the account and start again. If you are in the EEA, the UK or a US state with a privacy law, you can ask to see, correct or delete data about you, and to object to its use. Crash reports carry only your random identifier, so include it if you ask for them to be removed.</li>
     </ul>
   </section>
 
   <section class="card">
     <h2>Children</h2>
-    <p>Purrwood is suitable for all ages and asks for nothing about a player's age, name or identity. An email address is needed only for the optional account, and a parent or guardian may use their own. If you believe a child has created an account you did not agree to, contact us and it will be removed.</p>
+    <p>Purrwood is suitable for all ages and asks for nothing about a player's age, name or identity, so it cannot tell which players are children. An email address is needed only for the optional account, and a parent or guardian may use their own. Ads are optional and only appear if a player taps <em>Play ad</em>; a parent can switch ad tracking off as described under <a href="#ads">Ads</a>, or simply leave ads alone. If you believe a child has created an account you did not agree to, contact us and it will be removed.</p>
   </section>
 
   <section class="card">
     <h2>Retention</h2>
-    <p>Your account and save are kept until you delete them. Accounts that were never used again are not taken or sold, they sit until deleted. Purchase receipts are kept as long as the stores require for refunds.</p>
+    <p>Your account and save are kept until you delete them. Ad records are kept with the account and deleted with it. Accounts that were never used again are not taken or sold, they sit until deleted. Purchase receipts are kept as long as the stores require for refunds. Crash reports are kept by Sentry for a limited time, as above. Google keeps ad information under its own policy.</p>
   </section>
 
   <section class="card">
